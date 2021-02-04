@@ -1,0 +1,1 @@
+DROP DATABASE ServiciosFinanierosNieve_04;

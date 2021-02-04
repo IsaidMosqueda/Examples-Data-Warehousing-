@@ -1,0 +1,41 @@
+sala_id,cliente_id,pelicula_id,hora,tipo_pago_id,num_entradas,importe
+101,1,1,12:05:06,efectivo                                ,3,$ 450.00
+102,2,2,19:30:15,tarjeta de credito                      ,1,$ 75.00
+103,3,3,14:58:00,tarjeta de debito                       ,2,$ 240.00
+104,4,4,15:00:00,tarjeta de credito                      ,1,$ 175.00
+105,5,5,11:15:59,tarjeta de credito                      ,2,$ 350.00
+106,6,6,22:00:00,tarjeta de credito                      ,2,$ 240.00
+107,7,7,17:29:34,tarjeta de debito                       ,6,$ 450.00
+108,8,8,16:47:45,efectivo                                ,20,$ 3 000.00
+109,9,9,20:33:09,efectivo                                ,3,$ 225.00
+110,10,10,15:35:38,efectivo                                ,13,$ 1 950.00
+101,11,1,11:05:06,efectivo                                ,3,$ 450.00
+102,12,2,18:30:15,tarjeta de credito                      ,1,$ 75.00
+103,13,3,13:58:00,tarjeta de debito                       ,2,$ 240.00
+104,14,4,14:00:00,tarjeta de credito                      ,1,$ 175.00
+105,15,5,12:15:59,tarjeta de credito                      ,2,$ 350.00
+106,16,6,24:00:00,tarjeta de credito                      ,2,$ 240.00
+107,17,7,15:29:34,tarjeta de debito                       ,6,$ 450.00
+108,18,8,16:47:45,efectivo                                ,20,$ 3 000.00
+109,19,9,22:33:09,efectivo                                ,3,$ 225.00
+110,20,10,13:35:38,efectivo                                ,13,$ 1 950.00
+101,21,1,11:34:22,efectivo                                ,3,$ 450.00
+102,22,2,10:05:06,tarjeta de credito                      ,1,$ 75.00
+103,23,3,16:30:15,tarjeta de debito                       ,2,$ 240.00
+104,24,4,11:58:00,tarjeta de credito                      ,1,$ 175.00
+105,25,5,18:00:00,tarjeta de credito                      ,2,$ 350.00
+106,26,6,16:15:59,tarjeta de credito                      ,2,$ 240.00
+107,27,7,13:00:00,tarjeta de debito                       ,6,$ 450.00
+108,28,8,12:29:34,efectivo                                ,20,$ 3 000.00
+109,29,9,19:47:45,efectivo                                ,3,$ 225.00
+110,30,10,21:33:09,efectivo                                ,13,$ 1 950.00
+101,31,1,19:35:38,efectivo                                ,3,$ 450.00
+102,32,2,18:34:22,tarjeta de credito                      ,1,$ 75.00
+103,33,3,12:05:06,tarjeta de debito                       ,2,$ 240.00
+104,34,4,12:30:15,tarjeta de credito                      ,1,$ 175.00
+105,35,5,14:58:00,tarjeta de credito                      ,2,$ 350.00
+106,36,6,19:00:00,tarjeta de credito                      ,2,$ 240.00
+107,37,7,18:15:59,tarjeta de debito                       ,6,$ 450.00
+108,38,8,20:00:00,efectivo                                ,20,$ 3 000.00
+109,39,9,11:29:34,efectivo                                ,3,$ 225.00
+110,40,10,12:47:45,efectivo                                ,13,$ 1 950.00

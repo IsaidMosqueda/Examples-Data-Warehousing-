@@ -1,0 +1,515 @@
+-------------->
+/*insert Fecha de nacimineto*/
+-------------->
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('03-12-1998');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('16-02-1990');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('17-06-1956');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('26-10-1973');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('30-08-1973');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('11-03-1991');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('11-09-1980');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('10-04-1985');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('01-11-1979');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('05-01-1998');
+
+-------->
+/*insert IDIOMA*/
+-------->
+insert into IDIOMA(IDIOMA)
+values('Espanol');
+insert into IDIOMA(IDIOMA)
+values('Ingles');
+insert into IDIOMA(IDIOMA)
+values('Frances');
+insert into IDIOMA(IDIOMA)
+values('Portugues');
+
+-------->
+/*insert mes*/
+-------->
+insert into MES(MES_ID,MES_DESC)
+values(01,'Enero');
+insert into MES(MES_ID,MES_DESC)
+values(02,'Febrero');
+insert into MES(MES_ID,MES_DESC)
+values(03,'Marzo');
+insert into MES(MES_ID,MES_DESC)
+values(04,'Abril');
+insert into MES(MES_ID,MES_DESC)
+values(05,'Mayo');
+insert into MES(MES_ID,MES_DESC)
+values(06,'Junio');
+insert into MES(MES_ID,MES_DESC)
+values(07,'Julio');
+insert into MES(MES_ID,MES_DESC)
+values(08,'Agosto');
+insert into MES(MES_ID,MES_DESC)
+values(09,'Septiembre');
+insert into MES(MES_ID,MES_DESC)
+values(10,'Octubre');
+insert into MES(MES_ID,MES_DESC)
+values(11,'Noviembre');
+insert into MES(MES_ID,MES_DESC)
+values(12,'Diciembre');
+
+-------->
+/*insert nacionalidad*/
+-------->
+insert into NACIONALIDAD
+values('Norteamericana');
+insert into NACIONALIDAD
+values('Inglesa');
+insert into NACIONALIDAD
+values('Mexicana');
+insert into NACIONALIDAD
+values('Francesa');
+insert into NACIONALIDAD
+values('Espanola');
+
+-------->
+/*insert PAGO*/
+-------->
+insert into PAGO(TIPO_PAGO_ID)
+values('efectivo');
+insert into PAGO(TIPO_PAGO_ID)
+values('tarjeta de credito');
+insert into PAGO(TIPO_PAGO_ID)
+values('tarjeta de debito');
+
+-------->
+/*insert TIPO_SALA*/
+-------->
+insert into TIPO_SALA(TIPO_SALA_ID,TIPO_SALA_DESC)
+values(50,'VIP');
+insert into TIPO_SALA(TIPO_SALA_ID,TIPO_SALA_DESC)
+values(51,'XD');
+insert into TIPO_SALA(TIPO_SALA_ID,TIPO_SALA_DESC)
+values(52,'3D');
+insert into TIPO_SALA(TIPO_SALA_ID,TIPO_SALA_DESC)
+values(53,'iMAX');
+
+-------->
+/*insert TIPO_CLIENTE*/
+-------->
+insert into TIPO_CLIENTE(TIPO_CLENTE_ID,TIPO_CLIENTE_DESC)
+values(222,'asiduo');
+insert into TIPO_CLIENTE(TIPO_CLENTE_ID,TIPO_CLIENTE_DESC)
+values(223,'eventual');
+
+--------------->
+/* insert Cliente*/
+--------------->
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(1,'03-12-1998',222, 'Amanda Estrada');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(2,'16-02-1990',222, 'Benito Juarez');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(3,'17-06-1956',222, 'Vicente Guerrero');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(4,'26-10-1973',222, 'Pamela Ruiz');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(5,'30-08-1973',222, 'Raul Garcia');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(6,'11-03-1991',223, 'Josefa Ortiz');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(7,'11-09-1980',223, 'Belen Espinoza');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(8,'10-04-1985',223, 'Jorge Cruz');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(9,'01-11-1979',223, 'Maria Fernandez');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(10,'05-01-1998',223, 'Veela Veleros');
+
+-------->
+/*insert Peliculas*/
+-------->
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(001,'Espanol','Mexicana','Como agua para chocolate');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(002,'Ingles','Norteamericana','After');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(003,'Ingles','Norteamericana','john wick');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(004,'Ingles','Norteamericana','2012');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(005,'Ingles','Norteamericana','Transformers');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(006,'Ingles','Norteamericana','fast and furious');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(007,'Ingles','Norteamericana','Toy Story');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(008,'Espanol','Espanola','El Cuerpo');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(009,'Frances','Francesa','Amelie');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(010,'Ingles','Inglesa','Harry Potter');
+insert into PELICULAS(PELICULA_ID,IDIOMA,NACIONALIDAD,NOMBRE_PELICULA)
+values(011,'Espanol','Mexicana','Nosotros los Nobles');
+
+-------->
+/*insert SALA*/
+-------->
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(101,50);
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(102,51);
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(103,52);
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(104,53);
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(105,53);
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(106,52);
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(107,51);
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(108,50);
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(109,51);
+insert into SALA(SALA_ID,TIPO_SALA_ID)
+values(110,50);
+
+----------------->
+/* insert Dia*/
+----------------->
+insert into DIA(FECHA,MES_ID)
+values('23-01-2019',01);
+insert into DIA(FECHA,MES_ID)
+values('20-01-2019',01);
+insert into DIA(FECHA,MES_ID)
+values('12-07-2019',07);
+insert into DIA(FECHA,MES_ID)
+values('01-07-2019',07);
+insert into DIA(FECHA,MES_ID)
+values('24-07-2019',07);
+insert into DIA(FECHA,MES_ID)
+values('17-08-2019',08);
+insert into DIA(FECHA,MES_ID)
+values('19-08-2019',08);
+insert into DIA(FECHA,MES_ID)
+values('10-03-2019',03);
+insert into DIA(FECHA,MES_ID)
+values('11-05-2019',05);
+insert into DIA(FECHA,MES_ID)
+values('03-12-2019',12);
+insert into DIA(FECHA,MES_ID)
+values('09-11-2019',11);
+
+-------->
+/*insert horario*/
+-------->
+insert into HORARIO(HORA,FECHA)
+values('12:05:06.0000000','23-01-2019');
+insert into HORARIO(HORA,FECHA)
+values('19:30:15.00','20-01-2019');
+insert into HORARIO(HORA,FECHA)
+values('14:58:00.00','12-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('15:00:00.00','01-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('11:15:59.00','24-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('22:00:00.00','17-08-2019');
+insert into HORARIO(HORA,FECHA)
+values('17:29:34.00','19-08-2019');
+insert into HORARIO(HORA,FECHA)
+values('16:47:45.00','10-03-2019');
+insert into HORARIO(HORA,FECHA)
+values('20:33:09.000','11-05-2019');
+insert into HORARIO(HORA,FECHA)
+values('15:35:38.000','03-12-2019');
+insert into HORARIO(HORA,FECHA)
+values('14:34:22.000','09-11-2019');
+
+-------->
+/*insert HECHOS*/
+-------->
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(101,1,001,'12:05:06.0000000','efectivo',3,450);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(102,2,002,'19:30:15.00','tarjeta de credito',1,75);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(103,3,003,'14:58:00.00','tarjeta de debito',2,240);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(104,4,004,'15:00:00.00','tarjeta de credito',1,175);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(105,5,005,'11:15:59.00','tarjeta de credito',2,350);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(106,6,006,'22:00:00.00','tarjeta de credito',2,240);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(107,7,007,'17:29:34.00','tarjeta de debito',6,450);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(108,8,008,'16:47:45.00','efectivo',20,3000);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(109,9,009,'20:33:09.000','efectivo',3,225);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(110,10,010,'15:35:38.000','efectivo',13,1950);
+
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('16-07-1990');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('17-08-1956');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('26-05-1973');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('05-01-1990');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('13-03-1991');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('01-04-1980');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('01-01-1985');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('01-11-1974');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('02-01-1998');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('03-11-1998');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('16-03-1990');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('17-06-1966');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('26-07-1973');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('30-08-1977');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('11-01-1991');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('11-10-1980');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('10-06-1985');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('01-10-1979');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('05-12-1998');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('03-11-1995');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('16-01-1990');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('17-05-1956');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('26-07-1971');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('30-05-1973');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('11-02-1991');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('11-08-1980');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('10-03-1985');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('01-11-1970');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('05-02-1998');
+insert into FECHA_NACIMENTO(FECHA_NACIMIENTO)
+values('03-10-1998');
+
+-------->
+/*nuevas hechos*/
+----------->
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(11,'03-11-1998',222, 'Panfilo Bernal');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(12,'16-03-1990',222, 'Pedro Juarez');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(13,'17-06-1956',222, 'Acapulco Guerrero');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(14,'26-07-1973',222, 'jorge Ruiz');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(15,'30-08-1973',222, 'Benito Garcia');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(16,'11-01-1991',223, 'Nora Ortiz');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(17,'11-10-1980',223, 'Hector Espinoza');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(18,'10-06-1985',223, 'Federico Cruz');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(19,'01-10-1979',223, 'Angela Fernandez');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(20,'05-12-1998',223, 'Kronos Veleros');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(21,'03-11-1998',222, 'Pedro Estrada');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(22,'16-01-1990',222, 'Emilio Juarez');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(23,'17-05-1956',222, 'Juan Guerrero');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(24,'26-07-1973',222, 'Pamela Canseco');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(25,'30-05-1973',222, 'Raul Garza');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(26,'11-01-1991',223, 'Josefa Dominguez');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(27,'11-08-1980',223, 'Belen Garcia');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(28,'10-03-1985',223, 'Jorge Sagal');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(29,'01-11-1979',223, 'Maria Franco');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(30,'05-02-1998',223, 'Veela Valverde');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(31,'03-10-1998',222, 'Amanda Alcantara');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(32,'16-07-1990',222, 'Benito Cardon');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(33,'17-08-1956',222, 'Vicente Zenteno');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(34,'26-05-1973',222, 'Pamela Puga');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(35,'05-01-1990',222, 'Stefany Martinez');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(36,'13-03-1991',223, 'Josefa Seigel');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(37,'01-04-1980',223, 'Belen Tronchatoro');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(38,'01-01-1985',223, 'Jorge Miel');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(39,'01-11-1979',223, 'Maria Del Castillo');
+insert into CLIENTE(CLIENTE_ID,FECHA_NACIMIENTO,TIPO_CLENTE_ID,NOMBRE_CLIENTE)
+values(40,'05-01-1998',223, 'Veela Vega');
+------>
+/*nuevas horario*/
+---------->
+insert into HORARIO(HORA,FECHA)
+values('11:05:06.0000000','23-01-2019');
+insert into HORARIO(HORA,FECHA)
+values('18:30:15.00','20-01-2019');
+insert into HORARIO(HORA,FECHA)
+values('13:58:00.00','12-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('14:00:00.00','01-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('12:15:59.00','24-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('24:00:00.00','17-08-2019');
+insert into HORARIO(HORA,FECHA)
+values('15:29:34.00','19-08-2019');
+insert into HORARIO(HORA,FECHA)
+values('16:27:45.00','10-03-2019');
+insert into HORARIO(HORA,FECHA)
+values('22:33:09.000','11-05-2019');
+insert into HORARIO(HORA,FECHA)
+values('13:35:38.000','03-12-2019');
+insert into HORARIO(HORA,FECHA)
+values('11:34:22.000','09-11-2019');
+insert into HORARIO(HORA,FECHA)
+values('10:05:06.0000000','23-01-2019');
+insert into HORARIO(HORA,FECHA)
+values('16:30:15.00','20-01-2019');
+insert into HORARIO(HORA,FECHA)
+values('11:58:00.00','12-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('18:00:00.00','01-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('16:15:59.00','24-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('13:00:00.00','17-08-2019');
+insert into HORARIO(HORA,FECHA)
+values('12:29:34.00','19-08-2019');
+insert into HORARIO(HORA,FECHA)
+values('19:47:45.00','10-03-2019');
+insert into HORARIO(HORA,FECHA)
+values('21:33:09.000','11-05-2019');
+insert into HORARIO(HORA,FECHA)
+values('19:35:38.000','03-12-2019');
+insert into HORARIO(HORA,FECHA)
+values('18:34:22.000','09-11-2019');
+insert into HORARIO(HORA,FECHA)
+values('12:45:06.0000000','23-01-2019');
+insert into HORARIO(HORA,FECHA)
+values('12:30:15.00','20-01-2019');
+insert into HORARIO(HORA,FECHA)
+values('19:58:00.00','12-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('19:00:00.00','01-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('18:15:59.00','24-07-2019');
+insert into HORARIO(HORA,FECHA)
+values('20:00:00.00','17-08-2019');
+insert into HORARIO(HORA,FECHA)
+values('11:29:34.00','19-08-2019');
+insert into HORARIO(HORA,FECHA)
+values('12:47:45.00','10-03-2019');
+insert into HORARIO(HORA,FECHA)
+values('11:33:09.000','11-05-2019');
+insert into HORARIO(HORA,FECHA)
+values('11:35:38.000','03-12-2019');
+insert into HORARIO(HORA,FECHA)
+values('18:00:22.000','09-11-2019');
+
+-------------->
+/*nuevas hechos*/
+--------------->
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(101,11,001,'11:05:06.0000000','efectivo',3,450);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(102,12,002,'18:30:15.00','tarjeta de credito',1,75);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(103,13,003,'13:58:00.00','tarjeta de debito',2,240);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(104,14,004,'14:00:00.00','tarjeta de credito',1,175);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(105,15,005,'12:15:59.00','tarjeta de credito',2,350);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(106,16,006,'24:00:00.00','tarjeta de credito',2,240);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(107,17,007,'15:29:34.00','tarjeta de debito',6,450);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(108,18,008,'16:47:45.00','efectivo',20,3000);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(109,19,009,'22:33:09.000','efectivo',3,225);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(110,20,010,'13:35:38.000','efectivo',13,1950);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(101,21,001,'11:34:22.000','efectivo',3,450);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(102,22,002,'10:05:06.0000000','tarjeta de credito',1,75);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(103,23,003,'16:30:15.00','tarjeta de debito',2,240);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(104,24,004,'11:58:00.00','tarjeta de credito',1,175);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(105,25,005,'18:00:00.00','tarjeta de credito',2,350);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(106,26,006,'16:15:59.00','tarjeta de credito',2,240);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(107,27,007,'13:00:00.00','tarjeta de debito',6,450);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(108,28,008,'12:29:34.00','efectivo',20,3000);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(109,29,009,'19:47:45.00','efectivo',3,225);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(110,30,010,'21:33:09.000','efectivo',13,1950);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(101,31,001,'19:35:38.000','efectivo',3,450);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(102,32,002,'18:34:22.000','tarjeta de credito',1,75);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(103,33,003,'12:05:06.0000000','tarjeta de debito',2,240);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(104,34,004,'12:30:15.00','tarjeta de credito',1,175);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(105,35,005,'14:58:00.00','tarjeta de credito',2,350);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(106,36,006,'19:00:00.00','tarjeta de credito',2,240);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(107,37,007,'18:15:59.00','tarjeta de debito',6,450);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(108,38,008,'20:00:00.00','efectivo',20,3000);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(109,39,009,'11:29:34.00','efectivo',3,225);
+insert into HECHOS(SALA_ID,CLIENTE_ID,PELICULA_ID,HORA,TIPO_PAGO_ID,NUM_ENTRADAS,IMPORTE)
+values(110,40,010,'12:47:45.00','efectivo',13,1950);
