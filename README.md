@@ -1,2 +1,2 @@
 # Examples-Data-Warehousing-
-This respository holds two examples of datawarehouses Including sql querys and predictive querys using python.  
+This respository holds two examples of datawarehouses Including sql queries and predictive queries using python.  
